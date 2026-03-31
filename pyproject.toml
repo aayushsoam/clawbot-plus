@@ -1,6 +1,6 @@
 [project]
 name = "clawbot-plus"
-version = "2.1.0"
+version = "2.2.1"
 description = "🤖 AI-Powered Browser & Computer Automation CLI with Voice, RAG, Multi-Agent & more"
 authors = [{ name = "Aayushsoam" }]
 readme = "README.md"

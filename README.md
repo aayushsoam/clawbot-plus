@@ -86,22 +86,27 @@ clawbot
 ## How It Works
 
 ```
-         You (CLI / Telegram / Voice)
-                    │
-                    ▼
-         ┌──────────────────┐
-         │   ClawBot Agent   │
-         │  (Python + LLM)   │
-         └────────┬─────────┘
-                  │
-    ┌─────────────┼─────────────┐
-    │             │             │
-    ▼             ▼             ▼
- 🖥️ System    💻 Code       🌐 Browser
- Control      Engine        Automation
- (PyAutoGUI   (write_file   (browser-use
-  + Win32)     read_file     Agent)
-               shell)
+                            ╭──────────────────────────────╮
+                            │  You (CLI / Telegram / Voice)│
+                            ╰──────────────┬───────────────╯
+                                           │ (Commands, Voice, Images)
+                                           ▼
+         ╭───────────────────────────────────────────────────────────────────╮
+         │ 🤖 ClawBot Plus (Agentic Core)                                    │
+         │   • Brain (LLMs)      • RAG Memory       • Anti-Loop Engine       │
+         │   • Skill Plugins     • Error Healing    • Multi-Agent Team       │
+         ╰───────────────────────────────┬───────────────────────────────────╯
+                                         │
+             ╭───────────────────────────┼───────────────────────────╮
+             │                           │                           │
+             ▼                           ▼                           ▼
+ ╭───────────────────────╮   ╭───────────────────────╮   ╭───────────────────────╮
+ │ 🖥️ System Control     │   │ 💻 Code Engine        │   │ 🌐 Browser Automation │
+ │ --------------------- │   │ --------------------- │   │ --------------------- │
+ │ • OS APIs / PyAutoGUI │   │ • read/write_file     │   │ • browser-use Agent   │
+ │ • UI Automation       │   │ • Shell (Subprocess)  │   │ • Playwright / DOM    │
+ │ • Window Management   │   │ • Syntax Validation   │   │ • Scrape & Extract    │
+ ╰───────────────────────╯   ╰───────────────────────╯   ╰───────────────────────╯
 ```
 
 ## Key Subsystems
