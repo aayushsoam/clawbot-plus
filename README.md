@@ -200,9 +200,10 @@ agents/                # AI reviewer/planner agents
 
 ## Built By
 
-**ClawBot Plus** was built by **Aayush Soam** — a developer who believes AI should work *for* you, not just *with* you.
+**ClawBot Plus** was built by **Aayush Soam** with significant contributions from **Claude** (Anthropic) — pair-programmed from architecture to deployment.
 
-- [GitHub](https://github.com/aayushsoam)
+- 👤 [Aayush Soam](https://github.com/aayushsoam) — Creator, Vision & Product
+- 🤖 [Claude](https://claude.ai) (Anthropic) — Co-Developer, Architecture & Agent Engineering
 
 ## License
 
