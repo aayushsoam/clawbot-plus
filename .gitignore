@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+Thumbs.db
+.DS_Store
+$null
+
+# ClawBot runtime data (user-specific, not for repo)
+*.jpg
+*.jpeg
+*.mp4
+temp_analyze.*
+gateway_debug.txt
+logs/
+clawbot/computer/memory.json
+clawbot/computer/apps_cache.json
+clawbot/computer/security_log.json
+clawbot/computer/temp_analyze.*
+clawbot/computer/burst.mp4
+
+# Agent configs (IDE-specific)
+.gitnexus
+.claude/
+.gemini/
+
+# Large/generated files
+update-check.json
+exec-approvals.json
