@@ -11,9 +11,9 @@
   <a href="https://pypi.org/project/clawbot-plus/"><img src="https://img.shields.io/badge/pip-clawbot--plus-orange?style=for-the-badge" alt="PyPI"></a>
 </p>
 
-**ClawBot Plus** is a _personal AI assistant_ that takes full control of your Windows PC. It can open apps, write code, browse the web, generate presentations, search the internet, control system settings, and talk to you — all from a single CLI. Connect it to Telegram, and you can control your PC from your phone too.
+**ClawBot Plus** is the ultimate _personal AI assistant_ and open-source **autonomous computer control agent** for your Windows PC. Whether you need a powerful **OpenClaw alternative**, a **browser automation** tool using Playwright, or a **Voice AI agent** that talks back to you via Edge TTS, ClawBot Plus does it all. It can autonomously open apps, write code, run Python scripts, generate PowerPoint presentations, scrape the web, control system settings, and manage a multi-agent swarm — all from a single CLI or a remote Telegram bot.
 
-If you want a personal, single-user AI that feels local, fast, and always-on — this is it.
+If you are looking for an AI that feels local, fast, persistent, and acts as your robotic pair programmer and RPA (Robotic Process Automation) engine — this is it.
 
 ## Install (recommended)
 

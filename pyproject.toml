@@ -1,17 +1,24 @@
 [project]
 name = "clawbot-plus"
-version = "2.2.1"
-description = "🤖 AI-Powered Browser & Computer Automation CLI with Voice, RAG, Multi-Agent & more"
+version = "2.2.2"
+description = "🤖 Ultimate AI-Powered Browser & Computer Automation Agent (OpenClaw Alternative) with Voice, RAG, Web Search, Multi-Agent & more"
 authors = [{ name = "Aayushsoam" }]
 readme = "README.md"
 requires-python = ">=3.11"
+keywords = [
+    "ai", "agent", "automation", "browser-use", "openclaw", "claude",
+    "gemini", "gpt", "assistant", "computer-control", "voice-ai",
+    "web-scraping", "rpa", "windows-automation", "telegram-bot"
+]
 license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Environment :: Console",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Intended Audience :: Developers",
 ]
 dependencies = [
     "browser-use>=0.12.0",
